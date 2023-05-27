@@ -1,0 +1,34 @@
+.noteItem {
+  position: relative;
+}
+.noteItem button {
+  text-align: left;
+  padding: 10px;
+  border: none;
+  border-bottom: 2px solid var(--color-green);
+  background-color: var(--background-default);
+  cursor: pointer;
+  margin-bottom: 5px;
+  height: 40px;
+  width: 100%;
+}
+
+.noteItem:hover {
+  background-color: var(--color-green);
+}
+
+.nodeItem_img {
+  top: 0;
+  right: 0;
+  position: absolute;
+}
+
+.nodeItem_img img {
+  cursor: pointer;
+  width: 20px;
+  margin: 10px;
+}
+
+.nodeItem_img img:hover {
+  transform: scale(1.1);
+}

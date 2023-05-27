@@ -1,0 +1,53 @@
+:root {
+  --color-title: #433b37;
+  --color-white: white;
+  --color-border: #4096ff;
+  --color-green: #00a884;
+  --modal_background: rgba(0, 0, 0, 0.149);
+  --app-background: #d1d7db;
+  --app-background-context: #f7f8fa;
+  --app-background-stripe: #00a884;
+  --background-default: #dae1e1;
+}
+
+* {
+  /* width */
+  ::-webkit-scrollbar {
+    width: 5px;
+  }
+
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: var(--modal_background);
+  }
+
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--background-default);
+  }
+
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--app-background);
+  }
+
+  color: var(--color-title);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  background-color: var(--app-background);
+}
+
+.container {
+  width: calc(100% - 38px);
+  max-width: 1600px;
+  height: calc(100% - 38px);
+}

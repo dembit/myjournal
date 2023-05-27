@@ -1,0 +1,11 @@
+.textareaCustom {
+  border: 1px solid var(--color-title);
+  font-size: 24px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.textareaCustom:focus-visible {
+  border-radius: 2px;
+  outline: none;
+  border: 1px solid var(--color-border);
+}

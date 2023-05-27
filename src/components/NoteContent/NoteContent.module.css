@@ -1,0 +1,11 @@
+.noteContent {
+  background-color: var(--app-background-chat);
+  width: 100%;
+  height: 100%;
+  padding: 60px 20px 20px 20px;
+}
+
+.noteContent_date {
+  display: flex;
+  justify-content: space-between;
+}

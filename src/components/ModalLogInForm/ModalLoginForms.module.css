@@ -1,0 +1,21 @@
+.modalLoginForm {
+  display: flex;
+  background-color: var(--color-white);
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.modalLoginForm h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  color: var(--color-title);
+}
+
+.modalLoginForm input {
+  width: 100%;
+  box-sizing: border-box;
+}

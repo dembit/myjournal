@@ -1,0 +1,55 @@
+.greeting {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url('./../../img/journal.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  animation: moveGreeting 0.9s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  transform: translateY(0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.greeting h1 {
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  color: var(--color-title);
+  animation: appearanceTitle 1 linear 2s;
+  opacity: 0.8;
+  background-color: var(--color-white);
+}
+
+.greeting_wrapLogIn {
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  opacity: 0.6;
+  background-color: var(--color-white);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+@keyframes moveGreeting {
+  0% {
+    transform: translateY(-200vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes appearanceTitle {
+  0% {
+    transform: translateY(300px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0px);
+    opacity: 0.8;
+  }
+}

@@ -1,0 +1,23 @@
+.logInOut {
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.logInOut :hover {
+  opacity: 0.8;
+}
+
+.logInOut img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+.logInOut_title {
+  color: var(--color-title);
+  font-size: 24px;
+  font-weight: bold;
+}
