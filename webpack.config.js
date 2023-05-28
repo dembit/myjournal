@@ -1,7 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 
-const buildFolderName = 'dist'
+const buildFolderName = 'build'
 const port = '3000'
 
 module.exports = {

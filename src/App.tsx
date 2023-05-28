@@ -7,10 +7,14 @@ import { observer } from 'mobx-react'
 import LogInOut from './UIKit/LogInOut.tsx/LogInOut'
 import store from './store'
 import { getEmail, getName } from './helpers/reactTools'
+import { Helmet } from 'react-helmet'
 
 const App = () => {
   return (
     <div className={[styles.app_context, 'container'].join(' ')}>
+      <Helmet>
+        <title>Journal</title>
+      </Helmet>
       <div className={styles.app_context__auth}>
         <LogInOut
           isLogin={false}
