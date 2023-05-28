@@ -17,7 +17,7 @@ const initNote = {
 
 export type noteType = typeof initNote
 // получаем все записи из localstorage конкретного пользователя
-// если записей нет то добовляем по дефолту
+// если записей нет то добавляем по дефолту
 export const getInitListNotes = () => {
   const notes = getNotesByEmailName()
   return notes ? notes : [initNote]

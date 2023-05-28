@@ -6,7 +6,7 @@
   "homepage": "https://dembit.github.io/myjournal",
   "scripts": {
     "predeploy": "webpack --mode production",
-    "deploy": "gh-pages -d webpack",
+    "deploy": "gh-pages -d build",
     "start": "webpack serve --mode development ",
     "lint": "eslint src --ext .ts,.tsx"
   },
